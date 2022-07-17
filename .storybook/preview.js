@@ -3,8 +3,11 @@ import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css';
 import '@mdi/font/css/materialdesignicons.css';
 import vuetify from '../plugins/vuetify';
+console.log(vuetify);
 
 Vue.use(Vuetify);
+console.log(Vue.version);
+console.log(Vuetify.version);
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
